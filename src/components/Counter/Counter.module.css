@@ -1,0 +1,23 @@
+.Counter {
+  margin-left: 50px;
+  display: flex;
+  
+}
+
+.CounterValue {
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.h1 {
+  align-items: center;
+  display: flex;
+  margin-left: 30px;
+}
+
+.btn {
+  margin-right: 20px;
+  background-color: lightcoral ;
+  border-radius: 10px;
+  cursor: pointer;
+}
