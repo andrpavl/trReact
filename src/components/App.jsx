@@ -1,5 +1,7 @@
-import { Counter } from './Counter/Counter';
-import css from './Counter/Counter.module.css'
+// import { Counter } from './Counter/Counter';
+import { DrinksList } from 'DrinksList/DrinksList';
+import css from './Counter/Counter.module.css';
+import drinks from "../../src/recipes.json"
 
 // const colorPickerOptions = [
 //   { label: 'red', color: '#F44336' },
@@ -14,7 +16,8 @@ export const App = () => {
   return (
     <>
       <h1 className={css.h1}>Стан компонента</h1>
-      <Counter initialValue={0 } />
+      {/* <Counter initialValue={0} /> */}
+      <DrinksList drinks={drinks}/>
     </>
   );
 };
